@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: rgb(240, 218, 96);
+    font-family: sans-serif;
+}
+
+hr{
+   margin: 2%;
+   margin-bottom: 0;
+}
+
+h2{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3{
+    padding-bottom: 2%;
+}
+
+li{
+    font-size: 14px;
+    margin-left: 40px;
+    list-style-type: circle;
+    line-height: 20px;
+}
+
+.year{
+    float: right;
+}
+
+.title p{
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.profile{
+    padding: 2%;
+    padding-bottom: 0;
+}
+
+.profile p{
+    padding-top: 2%;
+    line-height: 2rem;
+}
+
+.edu{
+    padding: 2%;
+}
+
+.work{
+    padding: 2%;
+}
+
+.work p{
+    line-height: 20px;
+}
+
+.work h4{
+    padding-bottom: 0;
+}
+
+.ambros{
+    padding-top: 2%;
+}
+
+.skills{
+    padding: 2%;
+}
+
+.referees{
+    padding: 2%;
+}
+
+.referees p{
+    padding-top: 2%;
+}
+
+.res{
+    padding-top: 1%;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        padding: 7%;
+        padding-bottom: 0;
+    }
+    
+    .profile{
+        padding: 5%;
+    }
+
+    .edu{
+        padding: 5%;
+    }
+
+    .work{
+        padding: 5%;
+    }
+
+    .skills{
+        padding: 5%;
+    }
+
+    .referees{
+        padding: 5%;
+    }
+}
